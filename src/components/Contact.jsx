@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <div id='contact' className='flex flex-col items-center w-full h-fit pt-16'>
         <h1 className='mt-12 text-3xl font-medium text-[#437FC7]'>Contact</h1>
-        <div className='w-[800px] p-7'>
-            <form action="https://getform.io/f/c60a25d1-205e-4211-9eec-ced6ed40cf94" method='POST' encType='multipart/form-data'>
+        <div className='w-full pt-7 px-7 md:px-28'>
+            <form action="https://getform.io/f/2a996c7e-58c8-41db-812e-7a6fde080ecd" method='POST' encType='multipart/form-data'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
                         <label className='uppercase text-sm py-2 '>Name</label>
