@@ -1,4 +1,7 @@
 import React from 'react'
+import Quranapp from '../assets/Quranapp.png'
+import Blueharv from '../assets/Blueharv.png'
+import Melonova from '../assets/Melonova.png'
 import Jekopi from '../assets/Jekopi.png'
 import Porto from '../assets/Porto.png'
 import Rasanusantara from '../assets/Rasanusantara.png'
@@ -11,9 +14,11 @@ const Project = () => {
     <div id='project' className='flex flex-col items-center w-full h-fit pt-16 p-7'>
         <h1 className='mt-12 text-3xl font-medium text-[#437FC7]'>Projects</h1>
         <div className='grid sm:grid-cols-2 gap-12 mt-10 px-20'>
+            <ProjectItem img={Blueharv} title='Blue Harvest' link='https://github.com/azrieldwim/aquaculture-mobile' />
+            <ProjectItem img={Quranapp} title='Quran App' link='https://github.com/azrieldwim/Flutter_MiniProject_QuranApp_AzrielDwiMahendra' />
             <ProjectItem img={Jekopi} title='Jekopi' link='https://github.com/azrieldwim/JeKopi-Web-Coffee-Shop' demo='https://jekopi.vercel.app/' />
-            <ProjectItem img={Porto} title='Web Portofolio' link='https://github.com/azrieldwim/Porto-Web' demo='https://porto-azrieldwim.vercel.app/' />
             <ProjectItem img={Rasanusantara} title='Rasa Nusantara' link='https://github.com/azrieldwim/RasaNusantara-Web-Restaurant' demo='https://rasa-nusantara-web-restaurant.vercel.app/' />
+            <ProjectItem img={Melonova} title='Melonova' link='https://github.com/azrieldwim/IoT-Smart-Irrigation-with-Mobile-Monitoring' />
             <ProjectItem img={Reservify} title='Reservify' link='https://github.com/azrieldwim/Reservify-App-Mobile'/>
         </div>
     </div>

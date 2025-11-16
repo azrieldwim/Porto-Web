@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = () => {
   const downloadCV = () => {
-    window.open("https://drive.google.com/file/d/1QfpvRUBquBzEVg9_HQHjLUJF0Spo-5UO/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1185HChbumeWC6VUVFgI2BsnyVsR-viCg/view?usp=sharing", "_blank");
   };
 
   return (
